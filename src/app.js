@@ -1,5 +1,5 @@
 import {div, input} from '@cycle/dom'
-import { createComponent } from '@wcastand/cycle-fela'
+import { createComponent } from 'cycle-fela'
 import xs from 'xstream'
 
 const Title = createComponent(({mobile = false}) => ({color: mobile ? "red" : "yellow"}), 'h1')

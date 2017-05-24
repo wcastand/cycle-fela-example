@@ -1,5 +1,5 @@
 import {run} from '@cycle/run'
-import {makeFelaDomDriver} from '@wcastand/cycle-fela'
+import {makeFelaDomDriver} from 'cycle-fela'
 import {App} from './app'
 
 const main = App
