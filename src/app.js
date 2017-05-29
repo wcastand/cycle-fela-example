@@ -3,7 +3,7 @@ import { createComponent } from 'cycle-fela'
 import xs from 'xstream'
 
 const Bold = () => ({fontWeight: 'bold'})
-const Title = createComponent(({mobile = false}) => ({fontWeight: 'normal', color: mobile ? "red" : "gray"}), 'h1')
+const Title = createComponent(({mobile = false, theme}) => ({fontWeight: 'normal', color: mobile ? theme.mainColor : "orange"}), 'h1')
 const BoldTitle = createComponent(Bold, Title)
 export function App (sources) {
   const vtree$ = sources.DOM.select('input').events('click')

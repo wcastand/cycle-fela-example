@@ -818,9 +818,9 @@ cssauron@^1.4.0:
   dependencies:
     through X.X.X
 
-cycle-fela@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/cycle-fela/-/cycle-fela-0.1.1.tgz#1dcd407686b7a511b8e654d77b6c4ef69c26fd79"
+cycle-fela@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/cycle-fela/-/cycle-fela-0.2.0.tgz#d168f9e61b18d00d1676bde7750109d430410c4b"
   dependencies:
     "@cycle/dom" "^17.3.0"
     fela "^4.3.5"
